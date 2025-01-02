@@ -26,9 +26,11 @@ Encryption: Messages can be encrypted both in transit and at rest.
 TLS/SSL Support: Protects data from interception during transmission.
 <h3>7. Queue Management</h3>
 Supports various types of queues:
-Local Queues: For messages to be processed on the same server.
-Remote Queues: For forwarding messages to other servers.
-Dead Letter Queues: To handle undeliverable messages.
+<ol>
+<li>Local Queues: For messages to be processed on the same server.</li>
+<li>Remote Queues: For forwarding messages to other servers.</li>
+<li>Dead Letter Queues: To handle undeliverable messages.</li>
+</ol>
 Queue depth monitoring helps administrators manage message flow and avoid bottlenecks.
 <h3>8. Transactional Messaging</h3>
 Integrates with transaction managers to ensure consistency across distributed systems.
