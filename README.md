@@ -20,10 +20,12 @@ Allows applications to recover and process messages after downtime.
 Handles millions of messages per day, scaling vertically and horizontally.
 Supports clustering and load balancing to ensure high throughput and availability.
 <h3>6. Security</h3>
-Provides robust security mechanisms such as:
-Authentication and Authorization: Ensures only authorized users and applications can send or receive messages.
-Encryption: Messages can be encrypted both in transit and at rest.
-TLS/SSL Support: Protects data from interception during transmission.
+<h5>Provides robust security mechanisms such as:</h5>
+<ol>
+<li>Authentication and Authorization: Ensures only authorized users and applications can send or receive messages.</li>
+<li>Encryption: Messages can be encrypted both in transit and at rest.</li>
+<li>TLS/SSL Support: Protects data from interception during transmission.</li>
+</ol>
 <h3>7. Queue Management</h3>
 Supports various types of queues:
 <ol>
@@ -45,10 +47,12 @@ Enhances enterprise application connectivity and orchestration.
 Comes with built-in tools like MQ Explorer for managing and monitoring queues, topics, and channels.
 Provides APIs for integration with third-party monitoring tools.
 <h3>12. Flexibility with APIs</h3>
-Supports multiple APIs like:
-JMS (Java Message Service)
-MQI (Message Queue Interface)
-REST APIs for lightweight communication.
+<h5>Supports multiple APIs like:</h5>
+<ol>
+<li>JMS (Java Message Service)</li>
+<li>MQI (Message Queue Interface)</li>
+<li>REST APIs for lightweight communication.</li>
+</ol>
 Developers can use programming languages like Java, C, .NET, and Python to interact with IBM MQ.
 <h3>13. Event Handling<h3>
 Offers real-time event notifications for changes in the system or applications.
